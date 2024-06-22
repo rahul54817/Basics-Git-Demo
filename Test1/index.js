@@ -2,7 +2,7 @@ const findSum = (num1, num2) => {
     return num1 + num2;
 }
 
-<<<<<<< HEAD
+
 let users = [];
 const createUser = (name, email) =>{
 
@@ -11,8 +11,8 @@ const createUser = (name, email) =>{
         email : email
     }
     users = [...users, newUser];
+}
 
-=======
 let products = [];
 
 const addProduct = (name, price) =>{
@@ -21,5 +21,4 @@ const addProduct = (name, price) =>{
         product_price : price
     }
     products = [...products, newProduct]
->>>>>>> team2
 }
